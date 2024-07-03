@@ -3,7 +3,7 @@ const fs = require("fs");
 if (fs.existsSync("config.env"))
   require("dotenv").config({ path: "./config.env" });
 
-const toBool = (x) => x == "false";
+const toBool = (x) => x == "true";
 
 DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 let HANDLER = "false";
@@ -24,7 +24,7 @@ let HANDLER = "false";
   //_________________________________________________________________________________________________________________________________
   AUTO_STATUS_READ: process.env.AUTO_STATUS_READ || 'true',
   //_________________________________________________________________________________________________________________________________
-  SESSION_ID: process.env.SESSION_ID || "Phoenix~zifvDsW5", //Enter Phoenix~4MaA6gkhYour Session Id Here
+  SESSION_ID: process.env.SESSION_ID || "Phoenix~vvcNN5Je", //Enter Phoenix~4MaA6gkhYour Session Id Here
   //_________________________________________________________________________________________________________________________________
   SUDO: process.env.SUDO || "233508776658",
   //_________________________________________________________________________________________________________________________________
