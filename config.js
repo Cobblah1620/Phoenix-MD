@@ -8,7 +8,7 @@ const toBool = (x) => x == "false";
 DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 let HANDLER = "false";
 
-module.exports = {
+ module.exports = {
   //For Enabling Commands Like AUTO_STATUS_RED Type true For Disenabling Type false
   ANTILINK: toBool(process.env.ANTI_LINK) || true,
   //_________________________________________________________________________________________________________________________________
@@ -56,7 +56,7 @@ module.exports = {
   //_________________________________________________________________________________________________________________________________
   HEROKU_API_KEY: process.env.HEROKU_API_KEY || " ",
   //_________________________________________________________________________________________________________________________________
-  OWNER_NAME: process.env.OWNER_jessey || "professor",
+  OWNER_NAME: process.env.OWNER_jessey || "annielove",
   //_________________________________________________________________________________________________________________________________
   OWNER_NUMBER: process.env.OWNER_508776658 || "23350877658",
   //_________________________________________________________________________________________________________________________________
