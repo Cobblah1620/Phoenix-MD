@@ -3,7 +3,7 @@ const fs = require("fs");
 if (fs.existsSync("config.env"))
   require("dotenv").config({ path: "./config.env" });
 
-const toBool = (x) => x == "true";
+const toBool = (x) => x == "false";
 
 DATABASE_URL = process.env.DATABASE_URL || "./lib/database.db";
 let HANDLER = "false";
